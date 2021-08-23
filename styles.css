@@ -1,20 +1,21 @@
 body, html {
   height: 100%;
+  width: 100%;
 }
 
-.bg-image {
+.background {
   background-image: url("./assets/background_sky.png");
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+.inner_ {
+  background-color: rgba(0,0,0, 0.4);
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -26,4 +27,28 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
+  height: 80vh;
+  display: inline-grid;
+  justify-content: center;
+}
+
+.button {
+  display: block;
+  padding: 2.5vh 3.5vh;
+  background: #4E9CAF;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.button_view{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+a,p{
+  font-size: 4vh;
 }
