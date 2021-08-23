@@ -52,3 +52,10 @@ body, html {
 a,p{
   font-size: 4vh;
 }
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  font-size: 3vh;
+  width: 100%;
+}

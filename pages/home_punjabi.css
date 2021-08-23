@@ -1,0 +1,20 @@
+.responsive {
+  width: auto;
+  height: 90%;
+}
+
+.image_view{
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  font-size: 3.5vh;
+  width: 100%;
+}
+
+.image_inner{
+  width: 40vw;
+  height: 80vh;
+}
